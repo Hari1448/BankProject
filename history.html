@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transaction History</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>BANK PROJECT</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="withdraw.html">Withdraw</a></li>
+                <li><a href="deposit.html">Deposit</a></li>
+                <li><a href="history.html" class="active">History</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="history">
+        <h2>Transaction History</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Transaction ID</th>
+                    <th>Type</th>
+                    <th>Amount</th>
+                    <th>Balance</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Sample Transactions -->
+                <tr>
+                    <td>2024-12-01</td>
+                    <td>TXN123456</td>
+                    <td>Deposit</td>
+                    <td>$500</td>
+                    <td>$1500</td>
+                </tr>
+                <tr>
+                    <td>2024-12-03</td>
+                    <td>TXN123457</td>
+                    <td>Withdrawal</td>
+                    <td>$200</td>
+                    <td>$1300</td>
+                </tr>
+                <tr>
+                    <td>2024-12-07</td>
+                    <td>TXN123458</td>
+                    <td>Deposit</td>
+                    <td>$700</td>
+                    <td>$2000</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 My Bank. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
